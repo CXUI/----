@@ -1,0 +1,6 @@
+c:\users\administrator\source\repos\设计模式\StatePattern\bin\Debug\StatePattern.exe.config
+c:\users\administrator\source\repos\设计模式\StatePattern\bin\Debug\StatePattern.exe
+c:\users\administrator\source\repos\设计模式\StatePattern\bin\Debug\StatePattern.pdb
+c:\users\administrator\source\repos\设计模式\StatePattern\obj\Debug\StatePattern.csproj.CoreCompileInputs.cache
+c:\users\administrator\source\repos\设计模式\StatePattern\obj\Debug\StatePattern.exe
+c:\users\administrator\source\repos\设计模式\StatePattern\obj\Debug\StatePattern.pdb
