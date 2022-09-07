@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T07:19:16.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="FNkxkcOsOCGFe6YgO_R7" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T08:14:45.336Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="PoPQ2lYIQlGnK24POGXx" version="20.2.8" type="github">
   <diagram id="cOpHWH9Mn6Km4bEP1Nwy" name="第 1 页">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
           <mxGeometry x="495" y="190" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="beh4pt77fmSrPcNmpQ1O-38" value="Classname" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="560" width="140" height="104" as="geometry" />
+          <mxGeometry x="274" y="380" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="beh4pt77fmSrPcNmpQ1O-39" value="string：操作名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="beh4pt77fmSrPcNmpQ1O-38">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -77,6 +77,121 @@
         </mxCell>
         <mxCell id="beh4pt77fmSrPcNmpQ1O-41" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="beh4pt77fmSrPcNmpQ1O-38">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="beh4pt77fmSrPcNmpQ1O-44" target="beh4pt77fmSrPcNmpQ1O-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-44" value="ProcedureLaunch" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="570" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-45" value="OnEnter()&#xa;OnUpdate()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="beh4pt77fmSrPcNmpQ1O-44">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-46" value="ProcedureSplash" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="740" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-47" value="OnUpdate()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="beh4pt77fmSrPcNmpQ1O-46">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-51" value="启动脚本" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="510" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=110;entryPerimeter=0;" edge="1" parent="1" source="beh4pt77fmSrPcNmpQ1O-45" target="beh4pt77fmSrPcNmpQ1O-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-53" value="模块选择：单机、编辑器、网络" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="660" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=110;entryPerimeter=0;" edge="1" parent="1" source="beh4pt77fmSrPcNmpQ1O-47" target="beh4pt77fmSrPcNmpQ1O-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-59" value="ProcedurePreload" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="105" y="910" width="160" height="120" as="geometry">
+            <mxRectangle x="105" y="910" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-70" value="编辑器模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="beh4pt77fmSrPcNmpQ1O-59">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="beh4pt77fmSrPcNmpQ1O-47" target="beh4pt77fmSrPcNmpQ1O-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-62" value="ProcedureInitResources" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="910" width="160" height="120" as="geometry">
+            <mxRectangle x="280" y="910" width="190" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-75" value="单机模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="beh4pt77fmSrPcNmpQ1O-62">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="beh4pt77fmSrPcNmpQ1O-47" target="beh4pt77fmSrPcNmpQ1O-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-64" value="ProcedureCheckVersion" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="455" y="910" width="160" height="120" as="geometry">
+            <mxRectangle x="455" y="910" width="190" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-69" value="可更新模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="beh4pt77fmSrPcNmpQ1O-64">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="beh4pt77fmSrPcNmpQ1O-47" target="beh4pt77fmSrPcNmpQ1O-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="880" />
+              <mxPoint x="535" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-71" value="ProcedurePreload" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1070" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-72" value="OnEnter();" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="beh4pt77fmSrPcNmpQ1O-71">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="beh4pt77fmSrPcNmpQ1O-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="1030" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-76" value="不通模块脚本，" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="820" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-78" value="程序预加载" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=40;position=0.17;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1050" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-79" value="ProcedureChangeScene" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1220" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-80" value="OnEnter();" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="beh4pt77fmSrPcNmpQ1O-79">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="beh4pt77fmSrPcNmpQ1O-72" target="beh4pt77fmSrPcNmpQ1O-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-82" value="加载场景" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=40;position=0.17;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1180" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-83" value="ProcedureMenu" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1380" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-84" value="OnEnter();" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="beh4pt77fmSrPcNmpQ1O-83">
+          <mxGeometry y="30" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-85" value="ProcedureMain" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1380" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-86" value="OnEnter();" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="beh4pt77fmSrPcNmpQ1O-85">
+          <mxGeometry y="30" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="beh4pt77fmSrPcNmpQ1O-80" target="beh4pt77fmSrPcNmpQ1O-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="beh4pt77fmSrPcNmpQ1O-80" target="beh4pt77fmSrPcNmpQ1O-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beh4pt77fmSrPcNmpQ1O-89" value="菜单场景、主场景" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=40;position=0.17;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1300" width="150" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
